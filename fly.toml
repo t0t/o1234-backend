@@ -4,7 +4,6 @@ primary_region = "mad"
 [build]
   dockerfile = "Dockerfile"
   ignorefile = ".dockerignore"
-  context = "backend"
 
 [env]
   PORT = "8080"
